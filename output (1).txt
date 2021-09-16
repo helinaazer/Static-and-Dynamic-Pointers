@@ -1,0 +1,29 @@
+=====================================================================================
+Testing setw(n) function...
+Helina Azer
+Kamiak High School
+
+Testing static pointers...
+1, 2, 0x7fffe9c5a118, 0x7fffe9c5a11c, 0x7fffe9c5a118, 0x7fffe9c5a11c, 1, 2
+100, 2, 0x7fffe9c5a118, 0x7fffe9c5a118, 0x7fffe9c5a118, 0x7fffe9c5a11c, 100, 100
+100, 100, 0x7fffe9c5a11c
+
+Testing dynamic pointers...
+1, 2, 0x5558abf42e80, 0x5558abf42ea0, 0x7fffe9c5a118, 0x7fffe9c5a11c, 1, 2
+1, 2, 0x5558abf42e80, 0x5558abf42e80, 0x7fffe9c5a118, 0x7fffe9c5a11c, 100, 100
+100, 1, 0x5558abf42e84
+
+Testing swap functions...
+
+Pass by Value:
+Before swap: Helina, Azer
+After swap: Azer, Helina
+
+Pass by Reference:
+Before swap: Helina, Azer
+After swap: Azer, Helina
+
+Pass by Pointer:
+Before swap: Azer, Helina
+After swap: Helina, Azer
+=====================================================================================
